@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Karthick Srinivasan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Karthick Srinivasan" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1><a href="index.html">Karthick</a></h1>
+					<h2 class="w3ls-bnrtext">I am <span> Web </span>& <span>Hybrid app </span> Developer</h2>
+					<p class="w3ls-p">Senior Web Developer specializing in front end development</p>
+					<a href="#about" class="buy btn-wayra scroll">Explore my work</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p>Having 5+ years of experience in IT industry as developer. Experienced with all stages of the development cycle for dynamic web projects. Excellent experience in AngularJS/Angular, Bootstrap, HTML5, CSS3, JavaScript, jQuery and MySQL. Strong knowledge in Nodejs, Express, TypeScript, ReactJS and MongoDB.</p>
+			</div>
+			<a href="mailto:karthickcse41@gmail.com" class="wthree- about-link">Contact me: karthickcse41@gmail.com</a>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
+				<h4 class="agileinfo-head">Project 1</h4>
+				<h5>e-Learning</h5>
+				<p>Full Stack developer</p>
+				<p>3 years</p>
+				<p>AngularJS, Bootstrap, MySQL, Drupal and CSS</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<h4 class="agileinfo-head">Project 2</h4>
+				<h5>Reinsurance</h5>
+				<p>Mean Stack developer</p>
+				<p>6 months</p>
+				<p>AngularJS, Nodejs, MongoDB, Express, HTML5 and CSS</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<h4 class="agileinfo-head">Project 3</h4>
+				<h5>TTH</h5>
+				<p>UI developer</p>
+				<p>1+ Years</p>
+				<p>AngularJS/Angular, Bootstrap and CSS</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">skills</h3>
+				<p><strong>Web Technologies:</strong> AngularJS, Angular 2/4, Node.js, ReactJS, Express, Mongoose, Bootstrap, HTML5, 
+CSS3, JavaScript, JQuery, MVC Architecture, Socket.io, Restful Web services, Typescript and PHP.
+<strong>Databases:</strong> 	MongoDB, MySQL.<br />
+<strong>Development Tool:</strong> Git, GitHub, IBM Clearcase, Atom, Sublime, Brackets and Notepad++.<br />
+<strong>Operating Systems:</strong> Linux and Windows.<br />
+<strong>Other Skills:</strong>	Drupal, Jasmine, Protractor, Karma, Cordova, JQuery Mobile, Basics of Java, Grunt and Webpack.
+</p>
+			</div>
+			<div class="col-md-7 skills-right">
+				<div class="vertical-skills  pull-right xs-center">
+					<ul class="list-inline">
+						<li>
+							<div class="skill" style="height:100%; background:#ff9d0d;"><span class="value">100%</span></div><span class="title">Angular</span></li>
+						<li>
+							<div class="skill" style="height:90%; background:#03a9f4;"><span class="value">90%</span></div><span class="title">HTML</span></li>
+						<li>
+							<div class="skill" style="height:80%; background:#b32eca;"><span class="value">80%</span></div><span class="title">CSS</span></li>
+						<li>
+							<div class="skill" style="height:75%; background:#009688;"><span class="value">75%</span></div><span class="title">NodeJS</span></li>
+						<li>
+							<div class="skill" style="height:85%; background:#6361f0;"><span class="value">85%</span></div><span class="title">JS</span></li>
+						<li>
+							<div class="skill" style="height:65%; background:blueviolet;"><span class="value">65%</span></div><span class="title">ReactJS</span></li>
+
+					</ul>
+				</div>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- contact -->
+	
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
